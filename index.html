@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter App</title>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+      <h1 id="text">0</h1> <br>
+<button class="btn" onclick="countEr()">count</button> 
+  </div>
+</div>
+<script>
+let count = 0;
+function countEr() {
+    count++;
+    document.getElementById("text").innerText = count;
+}
+</script>
+
+</body>
+</html>
